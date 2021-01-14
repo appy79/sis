@@ -1,0 +1,216 @@
+
+/* Body Styling*/
+.main {
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: grey;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+}
+
+
+/* div styling */
+.main div#login {
+  width: 100%;
+  max-width: 360px;
+}
+
+/* logo styling */
+.main div#login h1 a {
+  background-image: none, url("../img/logo.svg");
+  background-size: 120px;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 40px;
+}
+
+/* Go Back Styling*/
+.main p#back {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.main p#back a {
+  color: #FFF;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
+.main p#back a:focus,
+.main p#back a:hover {
+  color: #FF3366;
+}
+
+/* Form Styling*/
+.main .appy-login {
+  background: 0;
+  box-shadow: none;
+  margin: 0 0 20px;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+/* Input divs Styling */
+.main .appy-login__input {
+  position: relative;
+  color: #FFF;
+  background: rgba(255, 255, 255, 0.05);
+  width: 100%;
+  border-radius: 100px;
+  margin: 0 0 20px;
+  padding: 0 20px;
+  color: #FFF;
+}
+
+
+/* Input Box Styling */
+.main .appy-login__input input {
+  outline: none;
+  background: none;
+  width: 100%;
+  border: 0;
+  box-shadow: none;
+  margin: 0;
+  color: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 20px;
+  padding-left: 60px;
+}
+
+
+/* Input Box Icons Styling*/
+.main .appy-login__input .icon{
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  color: inherit;
+  font-size: 24px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  pointer-events: none;
+  left: 40px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* Submit Button Styling*/
+.main .appy-login__submit {
+  display: block;
+  width: 100%;
+}
+
+
+.main .appy-login__submit input {
+  float: none;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+
+.main .appy-login__submit input.button {
+  display: block;
+  background: #FF3366;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 20px;
+  padding: 12px 20px;
+  border: 0;
+  border-radius: 100px;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 600;
+  text-shadow: none;
+}
+
+
+.main .appy-login__submit input:active {
+  margin: 0;
+  -webkit-transform: scale(0.99);
+          transform: scale(0.99);
+}
+
+
+/* Password Lost Styling*/
+.main p#nav {
+  margin: 0;
+  padding: 0 0 40px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+.main p#nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.main p#nav a:focus,
+.main p#nav a:hover {
+  color: #FF3366;
+}
+
+/* Banging Chrome for its misbehaviour*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
+    -webkit-transition-delay: 9999s;
+}
+
+
+/* Positioning CSS */
+
+
+.login * {
+  margin: 0;
+  padding: 0;
+}
+
+
+.login h1 a {
+  background-size: 84px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  color: #444;
+  height: 84px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.3em;
+  margin: 0 auto 25px;
+  padding: 0;
+  text-decoration: none;
+  width: 84px;
+  text-indent: -9999px;
+  outline: none;
+  overflow: hidden;
+  display: block;
+}
+
+
+#login {
+  width: 320px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
